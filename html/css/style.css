@@ -1,0 +1,177 @@
+html{
+    height:100%;
+    display:table;
+    margin:auto;
+}
+body{
+    padding-top: 70px;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    padding-bottom: 100px;
+}
+.container{
+    height: 100%;
+    width: 90%;
+}
+
+.nav.navbar-nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav.navbar-nav a:hover{
+    color: black;
+}
+.navbar-brand{
+    margin: 0 0 0 0px; 
+    padding-top: 7px;
+}
+
+h3 {
+    width: 90%;
+}
+.medicaments-container{
+    margin: auto;
+    text-align: center;
+}
+.substances-container{
+    margin: auto;
+    text-align: center;
+}
+.medecins-container{
+    margin: auto;
+    text-align: center;
+}
+.effets-container{
+    margin: auto;
+    text-align: center;
+}
+.table{
+    margin-top:10px; 
+    margin-bottom: 30px; 
+    text-align: center;
+}
+.table th{
+    text-align: center;
+    vertical-align: middle!important;
+}
+.table a {
+    color:#000000;
+    text-decoration:none;
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.medicaments-pagination{
+    text-align: center;
+}
+.substances-pagination{
+    text-align: center;
+}
+.medecins-pagination{
+    text-align: center;
+}
+.container .col-sm-9{
+    margin: auto;
+}
+.container .col-sm-7{
+    margin: auto;
+}
+.container .col-sm-3{
+    background-color: #f9f9f9;
+    outline: #DDDDDD solid 1px;
+    margin: auto;
+}
+.container .col-sm-5{
+    background-color: #f9f9f9;
+    outline: #DDDDDD solid 1px;
+    margin: auto;
+}
+.container .col-sm-5 select{
+    max-width: 95%;
+}
+#RechercheMedicament{
+    text-align: center;
+    border-width: 5px;
+    vertical-align: middle;
+    margin: auto;
+    padding: auto;
+}
+#RechercheSubstance{
+    text-align: center;
+    border-width: 5px;
+    vertical-align: middle;
+    margin: auto;
+    padding: auto;
+}
+#RechercheMedecin{
+    text-align: center;
+    border-width: 5px;
+    vertical-align: middle;
+    margin: auto;
+    padding: auto;
+}
+
+#detailsmedicaments-container{
+    text-align: center;
+    margin: auto;
+}
+#detailsmedicaments-container input{
+    max-width: 200px;
+}
+
+#detailssubstance-container, #detailssubstance-container h3, #detailsubstance-container .form-group{
+    text-align: center!important;
+    margin: auto;
+}
+#detailssubstance-container input{
+    max-width: 85%;
+}
+
+#detailsmedecin-container{
+    text-align: center;
+    margin: auto;
+}
+#detailsmedecin-container input{
+    max-width: 225px;
+}
+
+#nouvellesubstance {
+    text-align: center;
+}
+#modifsubstance {
+    text-align: center;
+}
+
+#DeleteMedicament {
+    text-align: center;
+}
+
+#DeleteSubstance{
+    text-align: center;
+}
+
+#DeleteMedecin {
+    text-align: center;
+}
+
+#ConfirmationCreation {
+    text-align: center;
+}
+
+#ConfirmationModif{
+    text-align: center;
+}
+
+#ConfirmationSuppr{
+    text-align: center;
+}
+
+#erreur-connexion .alert-danger{
+    text-align: center;
+}
+#NoAccess{
+    text-align: center;
+}
